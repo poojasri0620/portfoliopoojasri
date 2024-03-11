@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Adambhakam Poojasri</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello, I'm <span>Poojasri</span></h1>
+            <h3 class="text-animation"><span></span></h3>
+            <p>
+                Professional having a record of achievement in Computer Engineering - dynamic and results-driven. Specialized knowledge in Artificial intelligence and machine learning. Strong skills like leadership, Strategic planning, Problem-Solving. Committed to exceeding expectations and delivering great results. In search of fresh challenges and chances to use my abilities and support organizational development.
+            </p>
+            <div class="social-icons">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/adambhakam-poojasri-433145227/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/2110030169" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1qiZAz9WsT-7VqgydaWKnMq8lGdQliPsK/view?usp=sharing')">
+                  Download CV
+                </button>
+                <a href="#contact" class="btn">Contact</a>
+                </button>
+              </div>
+            <div class="home-img">
+                <img src="poojas.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021-2025</div>
+                <div class="timeline-content">
+                    <h3>KL university</h3>
+                    <p>CGPA: 8.14/10.0</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019-2021</div>
+                <div class="timeline-content">
+                    <h3>Sri Chaitanya Junior College</h3>
+                    <p>CGPA: 9.0/10.0</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018-2019</div>
+                <div class="timeline-content">
+                    <h3>Narayana High School</h3>
+                    <p>CGPA: 9.0/10.0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Languages</h4>
+                    <p>Java, Python</p>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Web Technologies</h4>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Databases</h4>
+                    <p>MySQL</p>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Frameworks</h4>
+                    <p>Angular, Nodejs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="badges">
+        <h2 class="heading">Badges</h2>
+        <p class="section__text__p1"></p>
+     <div class="badges-container">
+   <div class="badges">
+     <img src="./assets/1.png" alt="Badge 1" class="badge" />
+     <img src="./assets/2.png" alt="Badge 2" class="badge" />
+     <img src="./assets/4.png" alt="Badge 4" class="badge" />
+     <img src="./assets/5.png" alt="Badge 5" class="badge" />
+     <img src="./assets/8.png" alt="Badge 8" class="badge" />
+     <!-- Add more badges as needed -->
+   </div>
+ </div>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+       
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p class="copyright">© Poojasri | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
